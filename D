@@ -1,0 +1,35 @@
+GRANT ALL PRIVILEGES ON *.* TO 'najam'@'localhost' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON *.* TO 'najam'@'localhost' WITH GRANT OPTION;
+MyStrongPassword1234$MyStrongPassword1234$
+    MyStrongPassword1234$
+
+
+
+
+@@ password policy for mysql
+102
+
+If you don't care what the password policy is. You can set it to LOW by issuing below mysql command:
+
+mysql> SET GLOBAL validate_password.length = 4;
+mysql> SET GLOBAL validate_password.policy=LOW;
+
+
+
+@@ Beautify your terminal 
+
+# Update your software repositories.
+sudo apt-get update
+sudo apt-get upgrade
+
+# Install Git.
+sudo apt-get install -y git
+
+# Install Vim.
+sudo apt-get install -y vim
+
+
+
+# You don't need to execute this - it's part of the script already.
+(cd ~/.oh-my-zsh/custom/plugins && git clone https://github.com/zsh-users/zsh-syntax-highlighting)
+(cd ~/.oh-my-zsh/custom/plugins && git clone https://github.com/zsh-users/zsh-autosuggestions)
